@@ -16,4 +16,8 @@ namespace Catch {
     struct always_false : std::false_type {};
 } // namespace Catch
 
+namespace mpl_{
+    struct na;
+}
+
 #endif // TWOBLUECUBES_CATCH_META_HPP_INCLUDED
