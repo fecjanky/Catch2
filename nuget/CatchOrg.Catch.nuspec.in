@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CatchOrg.Catch</id>
+    <version>${PROJECT_VERSION}</version>
+    <authors>catchorg</authors>
+    <owners>fecjanky</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE.txt</license>
+    <projectUrl>https://github.com/catchorg/Catch2</projectUrl>
+    <iconUrl>https://github.com/catchorg/Catch2/blob/master/artwork/catch2-logo-small.png</iconUrl>
+    <description>C++ Automated Test Cases in a Header and is a multi-paradigm test framework for C++</description>
+    <copyright>Copyright ©2018 Two Blue Cubes Ltd.</copyright>
+    <tags>C++ unit-test native</tags>
+    <dependencies>
+      <group targetFramework="native0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+  <file src="build\**" target="build" />
+  <file src="lib\**" target="lib" />
+  <file src="licenses\LICENSE.txt" target="" />
+  </files>
+</package>
